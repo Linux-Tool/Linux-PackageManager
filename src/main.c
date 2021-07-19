@@ -285,6 +285,7 @@ Chinese part*/
                     {
                         if (_scanf_a2 == 5)
                         {
+                            cls();
                             break;
                         }
                         else if (_scanf_a2 == 1)
@@ -309,6 +310,7 @@ Chinese part*/
                             while (_enter_ch == getchar())
                             if (_enter_ch == '\n')
                             {
+                                cls();
                                 break;
                             }
                             else
@@ -316,7 +318,6 @@ Chinese part*/
                                 printf("按回车继续:");
                                 char _enter_ch = getchar();
                             }
-                        cls();
                         menu_software_user_Chinese();
                         scanf("%d",&_key_a2);
                         _scanf_a2 = _key_a2; 
@@ -331,14 +332,14 @@ Chinese part*/
                             while (_enter_ch == getchar())
                             if (_enter_ch == '\n')
                             {
+                                cls();
                                 break;
                             }
                             else
                             {
                                 printf("按回车继续:");
                                 char _enter_ch = getchar();
-                            }
-                        cls();
+                            }                       
                         menu_software_user_Chinese();
                         scanf("%d",&_key_a2);
                         _scanf_a2 = _key_a2; 
@@ -353,14 +354,14 @@ Chinese part*/
                             while (_enter_ch == getchar())
                             if (_enter_ch == '\n')
                             {
+                                cls();
                                 break;
                             }
                             else
                             {
                                 printf("按回车继续:");
                                 char _enter_ch = getchar();
-                            }
-                        cls();
+                            }         
                         menu_software_user_Chinese();
                         scanf("%d",&_key_a2);
                         _scanf_a2 = _key_a2;
@@ -380,6 +381,7 @@ Chinese part*/
                     while (_enter_ch1 == getchar())
                     if (_enter_ch1 == '\n')
                     {
+                        cls();
                         break;
                     }
                     else
@@ -387,7 +389,6 @@ Chinese part*/
                         printf("按回车继续:");
                         char _enter_ch1 = getchar();
                     }
-                    cls();
                     menu_main_Chinese();
                     scanf("%d",&_key_a1);
                     _scanf_a1 = _key_a1;
@@ -421,6 +422,7 @@ Chinese part*/
                     while (_enter_ch == getchar())
                     if (_enter_ch == '\n')
                     {
+                        cls();
                         break;
                     }
                     else
@@ -428,7 +430,6 @@ Chinese part*/
                         printf("Press enter to continue:");
                         char _enter_ch = getchar();
                     }
-                    cls();
                     menu_main_English();
                     scanf("%d",&_key_b1);
                     _scanf_b1 = _key_b1;
@@ -443,6 +444,7 @@ Chinese part*/
                     {
                         if (_scanf_b2 == 5)
                         {
+                            cls();
                             break;
                         }
                         else if (_scanf_b2 == 1)
@@ -467,6 +469,7 @@ Chinese part*/
                             while (_enter_ch == getchar())
                             if (_enter_ch == '\n')
                             {
+                                cls();
                                 break;
                             }
                             else
@@ -474,7 +477,6 @@ Chinese part*/
                                 printf("Press enter to continue:");
                                 char _enter_ch = getchar();
                             }
-                        cls();
                         menu_software_user_English();
                         scanf("%d",&_key_b2);
                         _scanf_b2 = _key_b2; 
@@ -489,6 +491,7 @@ Chinese part*/
                             while (_enter_ch == getchar())
                             if (_enter_ch == '\n')
                             {
+                                cls();
                                 break;
                             }
                             else
@@ -496,7 +499,6 @@ Chinese part*/
                                 printf("Press enter to continue:");
                                 char _enter_ch = getchar();
                             }
-                        cls();
                         menu_software_user_English();
                         scanf("%d",&_key_b2);
                         _scanf_b2 = _key_b2; 
@@ -511,6 +513,7 @@ Chinese part*/
                             while (_enter_ch == getchar())
                             if (_enter_ch == '\n')
                             {
+                                cls();
                                 break;
                             }
                             else
@@ -518,7 +521,6 @@ Chinese part*/
                                 printf("Press enter to continue:");
                                 char _enter_ch = getchar();
                             }
-                        cls();
                         menu_software_user_English();
                         scanf("%d",&_key_b2);
                         _scanf_b2 = _key_b2;
@@ -538,6 +540,7 @@ Chinese part*/
                     while (_enter_ch1 == getchar())
                     if (_enter_ch1 == '\n')
                     {
+                        cls();
                         break;
                     }
                     else
@@ -545,7 +548,6 @@ Chinese part*/
                         printf("Press enter to continue:");
                         char _enter_ch1 = getchar();
                     }
-                    cls();
                     menu_main_English();
                     scanf("%d",&_key_b1);
                     _scanf_b1 = _key_b1;
