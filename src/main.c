@@ -2,7 +2,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-/*以下乃计算判断性函数，用来进行功能性判断，通过返回值判断语言*/
+/*以下乃计算判断性函数，用来进行功能性判断，通过返回值判断语言
+The following is a computational judgment function for functional judgment, which is used to judge the language by returning a value*/
 int language(unsigned int a);
 int language(unsigned int a)
 {
@@ -22,33 +23,43 @@ int language(unsigned int a)
     return c;
 }
 
-/*以下乃功能性函数，包含system函数调用shell命令*/
+/*以下乃功能性函数，包含system函数调用shell命令
+The following is a functional function that contains the system function call shell command*/
+
+/*此乃清空屏幕的指令
+This is an instruction to empty the screen*/
 void cls(void);
 void cls(void)
 {
     system("clear");
 }
 
-/*了解系统版本的函数*/
+/*了解系统版本的函数
+Learn about system versions of functions*/
 void about_system(void);
 void about_system(void)
 {
     system("lsb_release -a && screenfetch");
 }
 
-/*了解软件版本的函数*/
+/*了解软件版本的函数
+Learn about software versions of functions*/
 void about_software(void);
 void about_software(void)
 {
     printf("version:1.0_0.1_public_beta1\n");
 }
 
+/*用来等待时间的函数
+The function used to wait time*/
 void wait_time(void);
 void wait_time(void)
 {
     sleep(2);
 }
 
+/*搜索软件包的函数
+Search for functions for packages*/
 void package_search_Chinese(void);
 void package_search_Chinese(void)
 {
@@ -71,6 +82,8 @@ void package_search_English(void)
     system(search);
 }
 
+/*安装软件包的函数
+The function that installs the package*/
 void install_package_Chinese(void);
 void install_package_Chinese(void)
 {
@@ -101,6 +114,8 @@ void install_package_English(void)
     system(install_packages);
 }
 
+/*添加软件仓库的函数
+Add a function for the software repository*/
 void add_warehouse_English(void);
 void add_warehouse_English(void)
 {
@@ -129,6 +144,8 @@ void add_warehouse_Chinese(void)
     system(add_url);
 }
 
+/*以下是实现菜单功能的函数
+The following are functions that implement menu functionality*/
 void menu_main_Chinese(void);
 void menu_main_Chinese(void)
 {
@@ -213,12 +230,16 @@ void menu_software_user_English()
     Choose to enter it:");
 }
 
+/*刷新软件仓库的函数
+Refresh the function of the software repository*/
 void system_ref(void);
 void system_ref(void)
 {
     system("sudo apt update");
 }
 
+/*更新系统的函数
+Update the functions of the system*/
 void system_dist_upgrade(void);
 void system_dist_upgrade(void)
 {
@@ -399,7 +420,8 @@ Chinese part*/
                 }
             }   
         }
-/*英语部分*/
+/*英语部分
+English Part*/
         else if (_scanf_a == 2)
         {
             unsigned int _key_b1, _scanf_b1;
